@@ -8,12 +8,18 @@ You are warmly welcome to pull requests on DEV branch, or contact me
 Astronomy Three.js experiments by [_Faz](http://twitter.com/_faz)
 
 
-Usage
+Demos
 -----------
 
-Simply clone the repo, or view in action : 
+Watch it in action : 
 [Solar System](http://fabienzibi.com/solar/) | [Death Star](http://fabienzibi.com/solar/deathstar.html)
 
+
+Features
+-----------
+
+- Play/Pause sound
+- Keyboard camera position
 
 Bug tracker
 -----------
