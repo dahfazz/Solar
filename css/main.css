@@ -3,9 +3,45 @@ body, html {
     overflow: hidden;
 }
 
-body {
+#space {
     background: url('../textures/space.jpg') no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+    top: -100px;
+    left: -100px;
+    width: 150%;
+    height: 150%;
+    -webkit-animation: spaceanime 25s infinite;
+    -moz-animation: spaceanime 25s infinite;
+    -o-animation: spaceanime 25s infinite;
+    animation: spaceanime 25s infinite;
+}
+
+#galaxy {
+    z-index: 50;
+    position: relative;
+}
+
+
+@keyframes spaceanime {
+    0% {
+        transform: scale(1) ;
+        animation-timing-function: ease-in;
+    }
+    25% {
+        transform: scale(1.1)rotate(3deg);
+        animation-timing-function: ease-out;
+    }
+    50% {
+        transform: scale(1.1) rotate(6deg);
+    }
+    75% {
+        transform: scale(1) rotate(3deg);
+    }
+    100% {
+         transform: scale(1)rotate(0deg);
+    }
 }
 
 #toolbar {
