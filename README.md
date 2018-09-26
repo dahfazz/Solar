@@ -11,7 +11,7 @@ Astronomy Three.js experiments by [_Faz](http://twitter.com/_faz)
 Demos
 -----------
 
-Watch it in action : 
+Do not watch it in action : 
 [Solar System](http://fabienzibi.com/solar/) | [Death Star](http://fabienzibi.com/solar/deathstar.html)
 
 
